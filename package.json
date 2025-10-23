@@ -3,12 +3,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "react-router build",
-    "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "build": "node_modules\\.bin\\react-router build",
+    "dev": "node_modules\\.bin\\react-router dev",
+    "start": "node_modules\\.bin\\react-router-serve ./build/server/index.js",
+    "typecheck": "node_modules\\.bin\\react-router typegen && tsc"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.4",
+    "@react-icons/all-files": "^4.1.0",
     "@react-router/node": "^7.9.2",
     "@react-router/serve": "^7.9.2",
     "isbot": "^5.1.31",
@@ -17,7 +21,7 @@
     "react-router": "^7.9.2"
   },
   "devDependencies": {
-    "@react-router/dev": "^7.9.2",
+    "@react-router/dev": "^7.9.4",
     "@tailwindcss/vite": "^4.1.13",
     "@types/node": "^22",
     "@types/react": "^19.1.13",
