@@ -29,7 +29,12 @@ const SignIn = () => {
             <CustomInput text="Password" type="password" />
           </span>
 
-          <p className="text-[14px] text-light-200">Forgot password?</p>
+          <p
+            className="text-[14px] text-light-200 cursor-pointer"
+            onClick={() => navigate("/reset")}
+          >
+            Forgot password?
+          </p>
 
           <CustomButton text={"Log In"} colored onClick={() => {}} />
         </div>

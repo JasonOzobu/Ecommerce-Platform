@@ -7,4 +7,5 @@ export default [
   //auth pages
   route("sign-in", "./routes/auth/Sign-in.tsx"),
   route("sign-up", "./routes/auth/Sign-up.tsx"),
+  route("reset", "./routes/auth/ForgetPassword.tsx"),
 ] satisfies RouteConfig;
