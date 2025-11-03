@@ -9,9 +9,9 @@ const ProductCards = ({ title }: ProductCardsProps) => {
     <section className="flex flex-col">
       <h1 className="text-[24px] my-[30px] font-semibold">{title}</h1>
 
-      <div className="flex gap-[30px] mb-[30px]">
+      <div className="w-full  flex-1 flex gap-[45px] mb-[30px]">
         {FeaturedProducts.map((products, index) => (
-          <span key={index} className="w-[260px] h-[300px] rounded-[12px]">
+          <span key={index} className="w-[270px] h-[310px] rounded-[12px]">
             <img
               className="rounded-[12px] w-full h-[270px] object-cover"
               src={products.image}

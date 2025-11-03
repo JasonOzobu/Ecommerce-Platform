@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node_modules\\.bin\\react-router build",
-    "dev": "node_modules\\.bin\\react-router dev",
+    "build": "vite build",
+    "dev": "vite",
     "start": "node_modules\\.bin\\react-router-serve ./build/server/index.js",
     "typecheck": "node_modules\\.bin\\react-router typegen && tsc"
   },
